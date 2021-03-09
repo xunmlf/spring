@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--声明student对象
+        注入：就是赋值的意思
+        简单类型：spring中规定Java的基本数据类型和String都是简单数据类型
+        di:给属性赋值
+        1:set注入（设置注入）   spring调用类的set方法，你可以在set方法中完成属性赋值
+          1):简单类型的set注入
+          <bean id="xx" class="yy">
+                <property class="属性名" value="该属性值" />
+                一个property只能给一个属性赋值
+          </bean>
+
+          2):引用类型的set注入    spring调用类的set方法
+          <bean id="xx" class="yy">
+                <property class="属性名" ref="bean的id(对象的名称)" />
+                一个property只能给一个属性赋值
+          </bean>
+
+        2:构造注入：spring调用类有参数构造方法，在创建对象的同时，在构造方法中给属性赋值。
+           使用<constructor-arg>标签；
+           <constructor-arg> 标签：一个<constructor-arg表示构造方法的一个参数.
+           <constructor-arg>标签属性：
+                name:表示构造方法的形参名
+                index:表示构造方法的参数的位置，从左往右0，1，2
+                value:构造方法的形参类型是简单数据类型，使用value
+                ref:构造方法的形参类型是引用类型，使用ref
+    -->
+
+    <!--使用name属性赋值-->
+    <bean id="myStudent" class="com.powernode.ba03.Student">
+        <constructor-arg name="age" value="20"/>
+        <constructor-arg name="name" value="lisi"/>
+        <constructor-arg name="school" ref="mySchool"/>
+    </bean>
+
+    <bean id="mySchool" class="com.powernode.ba03.School">
+        <property name="name" value="北京大学"/>
+        <property name="address" value="北京市海淀区"/>
+    </bean>
+
+    <!--使用index属性赋值-->
+    <bean id="my" class="com.powernode.ba03.Student">
+        <constructor-arg index="0" value="张三"/>
+        <constructor-arg index="1" value="22"/>
+        <constructor-arg index="2" ref="mySchool"/>
+    </bean>
+</beans>
