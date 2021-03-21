@@ -1,0 +1,6 @@
+具体步骤
+1：创建maven项目
+2：加入spring依赖，junit依赖
+3：创建类
+4：创建spring需要的配置文件
+5：测试spring创建

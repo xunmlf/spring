@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch06-练习spring集成mybatis" />
+        <module name="ch05-spring集成mybatis (1)" />
+        <module name="ch03-di-anno" />
+        <module name="ch10-servlet" />
+        <module name="ch07-spring事务" />
+        <module name="ch04-aop-aspectj" />
+        <module name="ch02-spring" />
+        <module name="ch09-spring-web" />
+        <module name="ch01-spring" />
+        <module name="ch02-di-xml" />
+        <module name="ch08-用注解方式完成事务" />
+        <module name="ch05-spring集成mybatis" />
+        <module name="ch03-用注解是新ioc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch01-spring" target="13" />
+      <module name="ch02-di-xml" target="13" />
+      <module name="ch02-spring" target="13" />
+      <module name="ch03-di-anno" target="13" />
+      <module name="ch03-用注解是新ioc" target="13" />
+      <module name="ch04-aop-aspectj" target="13" />
+      <module name="ch05-spring集成mybatis" target="13" />
+      <module name="ch05-spring集成mybatis (1)" target="13" />
+      <module name="ch06-练习spring集成mybatis" target="13" />
+      <module name="ch07-spring事务" target="13" />
+      <module name="ch08-用注解方式完成事务" target="13" />
+      <module name="ch09-spring-web" target="13" />
+      <module name="ch10-servlet" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

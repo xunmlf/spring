@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <bean id="myDataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close" >
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="maxActive" value="${jdbc.max}"/>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource" />
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="com.ning.dao"/>
+    </bean>
+
+    <bean id="buyService" class="com.ning.service.impl.BuyGoodsServiceImpl">
+        <property name="goodsDao" ref="goodsDao"></property>
+        <property name="saleDao" ref="saleDao"/>
+    </bean>
+
+    <!--声明式事务处理:和源代码完全分离-->
+    <!--1.声明事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--连接的数据库，指定数据源-->
+        <property name="dataSource" ref="myDataSource"/>
+    </bean>
+    <!--声明业务方法和他的事务属性:（配置方法的事务属性【隔离级别，传播行为，超时】）
+         id:自定义名称
+         transaction-manager:事务管理器对象的名称
+    -->
+    <tx:advice id="myAdvice" transaction-manager="transactionManager">
+        <!--
+        tx:attributes:配置事务属性
+        -->
+        <tx:attributes>
+            <!--tx:method :给具体的方法配置事务属性,method可以有多个,分别给不同方法配置事务属性,
+                   name:方法名称  1):完整的方法名,不带包和类
+                                 2):使用通配符*,表示任意字符
+                   propagation:传播行为,枚举值
+                   isolation:隔离级别
+                   rollback-for:你指定的异常类名,全限定类名,发胜异常一定回滚
+            -->
+            <tx:method name="buy" propagation="REQUIRED" isolation="DEFAULT"
+                       rollback-for="java.lang.NullPointerException,com.ning.excep.NotEnoughException"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--配置aop-->
+    <aop:config>
+        <!--配置切入点表达式,指定哪些包中类,要使用事务
+           id:切入点表达式名称
+           expression:切入点表达式,指定哪些类要使用事务, aspectj会创建代理对象
+
+           com.ning.service
+           com.csr.service
+           com.ss.service
+           -->
+        <aop:pointcut id="servicePt" expression="execution(* *..service..*.*(..))"/>
+
+        <!--配置增强器:关联advice和pointcut
+                advice-ref:通知,上面tx:advice那里的配置
+                pointcut-ref:切入点表达式的id
+        -->
+        <aop:advisor advice-ref="myAdvice" pointcut-ref="servicePt"/>
+    </aop:config>
+
+</beans>

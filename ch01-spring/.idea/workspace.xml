@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d50ccd8-c53c-4e7c-bcf9-b2ce957cae0f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven work/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\tools\maven work\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+  </component>
+  <component name="ProjectId" id="1pFGUZdXjmW0abeKbJs1gxwC6wi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-boot" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tools\idea\learnSpring\ch03-di-anno\src\main\java\com\spring\ba06" />
+      <recent name="D:\tools\idea\learnSpring\ch03-di-anno\src\main\java\com\spring\ba05" />
+      <recent name="D:\tools\idea\learnSpring\ch03-di-anno\src\main\java\com\spring\ba04" />
+      <recent name="D:\tools\idea\learnSpring\ch03-di-anno\src\main\java\com\spring\ba03" />
+      <recent name="D:\tools\idea\learnSpring\ch03-di-anno\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+      <recent name="com.powernode.ba01" />
+      <recent name="com.powernode.ba02" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tools\idea\learnSpring\ch02-di-xml\src\main\resources\ba01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.myText05.text01 (1)">
+    <configuration name="myText01.text01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch03-di-anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.myText01" />
+      <option name="METHOD_NAME" value="text01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myText02.text01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch03-di-anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.myText02" />
+      <option name="METHOD_NAME" value="text01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myText03.text01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch03-di-anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.myText03" />
+      <option name="METHOD_NAME" value="text01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myText04.text01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch03-di-anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.myText04" />
+      <option name="METHOD_NAME" value="text01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myText05.text01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch03-di-anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.myText05" />
+      <option name="METHOD_NAME" value="text01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.myText05.text01 (1)" />
+        <item itemvalue="JUnit.myText04.text01 (1)" />
+        <item itemvalue="JUnit.myText03.text01 (1)" />
+        <item itemvalue="JUnit.myText02.text01" />
+        <item itemvalue="JUnit.myText01.text01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d50ccd8-c53c-4e7c-bcf9-b2ce957cae0f" name="Default Changelist" comment="" />
+      <created>1614771440349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614771440349</updated>
+      <workItem from="1614771445346" duration="29000" />
+      <workItem from="1614771493517" duration="4160000" />
+      <workItem from="1614854638746" duration="13488000" />
+      <workItem from="1615013562537" duration="1190000" />
+      <workItem from="1615094688840" duration="3194000" />
+      <workItem from="1615114862865" duration="2874000" />
+      <workItem from="1615122575725" duration="5267000" />
+      <workItem from="1615163567793" duration="2255000" />
+      <workItem from="1615165859586" duration="3170000" />
+      <workItem from="1615201195240" duration="3024000" />
+      <workItem from="1615249957113" duration="3692000" />
+      <workItem from="1615273252496" duration="909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="91" key="#Project_Structure" timestamp="1615126729436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="91" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1615126729436" />
+    <state x="414" y="164" width="1178" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614854682611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="164" width="1178" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614854682611" />
+    <state x="661" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614771706287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614771706287" />
+    <state x="721" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1615166385026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615166385026" />
+    <state x="723" y="140" key="FileChooserDialogImpl" timestamp="1615273269588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="140" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615273269588" />
+    <state width="1867" height="270" key="GridCell.Tab.0.bottom" timestamp="1615273226825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615273226825" />
+    <state width="1867" height="270" key="GridCell.Tab.0.center" timestamp="1615273226825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615273226825" />
+    <state width="1867" height="270" key="GridCell.Tab.0.left" timestamp="1615273226825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615273226825" />
+    <state width="1867" height="270" key="GridCell.Tab.0.right" timestamp="1615273226825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615273226825" />
+    <state width="1867" height="335" key="GridCell.Tab.1.bottom" timestamp="1615169054409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615169054409" />
+    <state width="1867" height="335" key="GridCell.Tab.1.center" timestamp="1615169054409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615169054409" />
+    <state width="1867" height="335" key="GridCell.Tab.1.left" timestamp="1615169054409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615169054409" />
+    <state width="1867" height="335" key="GridCell.Tab.1.right" timestamp="1615169054409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615169054409" />
+    <state x="377" y="89" key="Maven.ArtifactSearchDialog" timestamp="1614912711906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="377" y="89" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614912711906" />
+    <state x="565" y="146" key="NewModule_or_Project.wizard" timestamp="1614858042514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="146" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614858042514" />
+    <state x="345" y="0" key="SettingsEditor" timestamp="1615250484888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615250484888" />
+    <state x="577" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1615273253195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615273253195" />
+    <state x="161" y="0" key="new project wizard" timestamp="1615273457002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="161" y="0" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615273457002" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1615126726408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615126726408" />
+  </component>
+</project>

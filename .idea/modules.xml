@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch01-spring/ch01-spring.iml" filepath="$PROJECT_DIR$/ch01-spring/ch01-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02-di-xml/ch02-di-xml.iml" filepath="$PROJECT_DIR$/ch02-di-xml/ch02-di-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02-spring/ch02-spring.iml" filepath="$PROJECT_DIR$/ch02-spring/ch02-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-di-anno/ch03-di-anno.iml" filepath="$PROJECT_DIR$/ch03-di-anno/ch03-di-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-用注解是新ioc/ch03-用注解是新ioc.iml" filepath="$PROJECT_DIR$/ch03-用注解是新ioc/ch03-用注解是新ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch04-aop-aspectj/ch04-aop-aspectj.iml" filepath="$PROJECT_DIR$/ch04-aop-aspectj/ch04-aop-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05-spring集成mybatis/ch05-spring集成mybatis.iml" filepath="$PROJECT_DIR$/ch05-spring集成mybatis/ch05-spring集成mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch08-用注解方式完成事务/ch05-spring集成mybatis (1).iml" filepath="$PROJECT_DIR$/ch08-用注解方式完成事务/ch05-spring集成mybatis (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch06-练习spring集成mybatis/ch06-练习spring集成mybatis.iml" filepath="$PROJECT_DIR$/ch06-练习spring集成mybatis/ch06-练习spring集成mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch07-spring事务/ch07-spring事务.iml" filepath="$PROJECT_DIR$/ch07-spring事务/ch07-spring事务.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch08-用注解方式完成事务/ch08-用注解方式完成事务.iml" filepath="$PROJECT_DIR$/ch08-用注解方式完成事务/ch08-用注解方式完成事务.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch09-spring-web/ch09-spring-web.iml" filepath="$PROJECT_DIR$/ch09-spring-web/ch09-spring-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch10-servlet/ch10-servlet.iml" filepath="$PROJECT_DIR$/ch10-servlet/ch10-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learnSpring.iml" filepath="$PROJECT_DIR$/.idea/learnSpring.iml" />
+    </modules>
+  </component>
+</project>
